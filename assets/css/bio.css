@@ -1,0 +1,77 @@
+#container-main {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.name-th {
+    font-size: 1.6rem;
+    color: #FFFF;
+}
+
+.container-img {
+    width: 10rem; 
+}
+
+.img-th {
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+
+.info-th {
+    font-size: 1.2rem;
+    text-align: center;
+    color: rgb(192, 192, 192);
+    margin-bottom: 1rem;
+}
+
+.name {
+    color: #00c6ff !important;
+}
+
+.container-btns {
+    width: 100%;
+}
+
+.btn-box {
+    position: relative;
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    background-color: #00c6ff;
+    color: #FFFF;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+
+.btn-box::after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: border .5s;
+}
+
+.btn-box:hover::after {
+    border-top: 1px solid #FFFF;
+}
+
+.instagram {
+    background-color: #0072ff;
+}
+
+.linkedin {
+    background-color: #0072ff;
+}
