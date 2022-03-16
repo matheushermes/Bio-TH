@@ -50,26 +50,22 @@
     color: #FFFF;
     border-radius: 4px;
     margin-bottom: 1rem;
-    text-align: center;
-    box-shadow: 0 0 10px rgba(0,0,0,0.6);
-    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    text-align: center;  
 }
 
 .btn-box::before {
     content: '';
-    width: 100%;
-    height: 100%;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: -.3rem;
+    left: -.3rem;
+    width: 3rem;
+    height: 3rem;
     background-color: #FFFF;
     border-radius: 4px;
+    z-index: -1;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
 }
 
-.btn-box::after {
-    content: '';
-    position: absolute;
-    inset: 4px;
-    background-color: #00c6ff;
-    border-radius: 4px;
-}
+
+
