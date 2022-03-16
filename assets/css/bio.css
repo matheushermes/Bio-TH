@@ -55,23 +55,21 @@
     -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
 }
 
-.btn-box::after {
-    content: "";
+.btn-box::before {
+    content: '';
     width: 100%;
+    height: 100%;
     position: absolute;
     top: 0;
     left: 0;
-    transition: border .5s;
+    background-color: #FFFF;
+    border-radius: 4px;
 }
 
-.btn-box:hover::after {
-    border-top: 1px solid #FFFF;
-}
-
-.instagram {
-    background-color: #0072ff;
-}
-
-.linkedin {
-    background-color: #0072ff;
+.btn-box::after {
+    content: '';
+    position: absolute;
+    inset: 4px;
+    background-color: #00c6ff;
+    border-radius: 4px;
 }
