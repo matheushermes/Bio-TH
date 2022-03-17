@@ -58,9 +58,14 @@
     background-color: #239bbd;
 }
 
-.btn-box::before, .btn-box::after {
+.btn-box::before {
     content: '';
     transition: all .5s;
+}
+
+.btn-box::after {
+    content: '';
+    transition: all 1s;
 }
 
 .btn-box:hover::before {
