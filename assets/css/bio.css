@@ -26,7 +26,7 @@
     font-size: 1.2rem;
     text-align: center;
     color: rgb(192, 192, 192);
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
 }
 
 .name {
@@ -45,26 +45,57 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     background-color: #00c6ff;
     color: #FFFF;
     border-radius: 4px;
     margin-bottom: 1rem;
-    text-align: center;  
+    text-align: center;
+    transition: .5s all;
 }
 
-.btn-box::before {
+.btn-box:hover {
+    background-color: #239bbd;
+}
+
+.btn-box::before, .btn-box::after {
+    content: '';
+    transition: all .5s;
+}
+
+.btn-box:hover::before {
     content: '';
     position: absolute;
     top: -.3rem;
     left: -.3rem;
-    width: 3rem;
+    width: 5rem;
     height: 3rem;
     background-color: #FFFF;
     border-radius: 4px;
     z-index: -1;
     box-shadow: 0 0 10px rgba(0,0,0,0.6);
     -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+
+.btn-box:hover::after {
+    content: '';
+    position: absolute;
+    bottom: -.3rem;
+    right: -.3rem;
+    width: 5rem;
+    height: 3rem;
+    background-color: #FFFF;
+    border-radius: 4px;
+    z-index: -1;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+
+@media screen and (min-width: 75rem){
+    
+    .container-btns {
+        width: 40%;
+    }
 }
 
 
