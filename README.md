@@ -4,7 +4,7 @@
 
 </br>
 <div align="center">
-  <img alt="Frente da bio" src="https://i.ibb.co/VLbrFJS/bio.png">
+  <img alt="Frente da bio" src="https://i.ibb.co/TPp0P6d/bio.png">
 </div>
 </br>
 
