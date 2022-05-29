@@ -1,4 +1,4 @@
-# Bio TH
+## <p align="center"> Bio TH </p>
 
 <p align="center"> 🚀 Página com intuito de destino a todas as minhas mídias sociais. </p>
 
