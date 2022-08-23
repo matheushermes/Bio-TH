@@ -1,0 +1,17 @@
+@keyframes line1 {
+    from {
+        transform: translate(-2000px);
+    }
+}
+
+svg {
+    position: absolute;
+    top: 0;
+    max-height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.line-1 {
+    animation: line1 3s ease-in-out infinite alternate;
+}
