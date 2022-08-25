@@ -6,6 +6,16 @@
     }
 }
 
+@keyframes shadow {
+    from {
+        box-shadow: 0 0 5px rgba(155, 155, 155, 0.6);
+        -webkit-box-shadow: 0 0 5px rgba(185, 185, 185, 0.6);
+    } to {
+        box-shadow: 0 0 50px rgba(155, 155, 155, 0.6);
+        -webkit-box-shadow: 0 0 50px rgba(185, 185, 185, 0.6);
+    }
+}
+
 #container-main {
     width: 80%;
     max-height: 100%;
@@ -22,7 +32,9 @@
 
 .name-th span {
     font-size: 3rem;
-    color: #00c6ff;
+    background: -webkit-linear-gradient(90deg, hsla(256, 96%, 44%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     margin-left: .1rem;
     animation: th 4s ease-in-out;
 }
@@ -34,8 +46,7 @@
 .img-th {
     width: 100%;
     border-radius: 50%;
-    box-shadow: 0 0 10px rgba(0,0,0,0.6);
-    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    animation: shadow 5s ease-in-out infinite alternate;
 }
 
 .info-th {
@@ -46,7 +57,10 @@
 }
 
 .name {
-    color: #00c6ff !important;
+    font-weight: 600;
+    background: -webkit-linear-gradient(90deg, hsla(256, 96%, 44%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .container-btns {
@@ -62,7 +76,7 @@
     align-items: center;
     justify-content: center;
     font-size: 1.3rem;
-    background-color: #00c6ff;
+    background: linear-gradient(90deg, hsla(225, 78%, 59%, 1) 0%, hsla(197, 85%, 51%, 1) 100%);
     color: #FFFF;
     border-radius: 8px;
     margin-bottom: 1rem;
@@ -71,7 +85,7 @@
 }
 
 .btn-box:hover {
-    background-color: #239bbd;
+    background: linear-gradient(90deg, rgb(35, 89, 248) 0%, rgb(10, 184, 253) 100%);
 }
 
 .btn-box::before {
