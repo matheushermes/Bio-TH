@@ -27,11 +27,11 @@ svg {
 }
 
 .Down {
-    animation: down 7s ease-in-out infinite;
+    animation: down 6s ease-in-out infinite;
 }
 
 .Up {
-    animation: up 7s ease-in-out infinite;
+    animation: up 5s ease-in-out infinite;
 }
 
 @media screen and (min-height: 52.438rem) {
