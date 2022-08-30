@@ -76,7 +76,7 @@
     align-items: center;
     justify-content: center;
     font-size: 1.3rem;
-    background: linear-gradient(90deg, hsla(225, 78%, 59%, 1) 0%, hsla(197, 85%, 51%, 1) 100%);
+    background: linear-gradient(90deg, rgb(51, 98, 236) 0%, rgb(9, 173, 238) 100%);
     color: #FFFF;
     border-radius: 8px;
     margin-bottom: 1rem;
@@ -85,7 +85,7 @@
 }
 
 .btn-box:hover {
-    background: linear-gradient(90deg, rgb(35, 89, 248) 0%, rgb(10, 184, 253) 100%);
+    background: linear-gradient(90deg, rgb(2, 59, 230) 0%, rgb(1, 166, 231) 100%);
 }
 
 .btn-box::before {
